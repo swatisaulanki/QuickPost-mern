@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 app.use('/api/users', userRoutes);
 app.use('/api/posts', postRoutes);
 
-// PORT setup (Render provides PORT automatically)
+// PORT setup 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, async () => {
