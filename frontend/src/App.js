@@ -1,11 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import CreatePost from './pages/CreatePost';
+import Navbar from './components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <div className='bg-richblack-300 text-white h-[500px]'>Hello world</div>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/create" element={<CreatePost />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
