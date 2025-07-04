@@ -21,7 +21,7 @@ const Login = () => {
   };
 
   return (
-    <div className="bg-custom-color3 min-h-screen flex justify-center items-start pt-20">
+    <div className="bg-custom-color2 min-h-screen flex justify-center items-start pt-20 font-poppins">
       <form
         className="max-w-md mx-auto p-6 bg-richblack-700"
         onSubmit={handleLogin}

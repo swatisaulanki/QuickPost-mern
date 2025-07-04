@@ -24,7 +24,7 @@ const PostCard = ({ post }) => {
   };
 
   return (
-    <div className="border p-1 rounded  bg-custom-color2 text-white shadow-md hover:shadow-lg transition duration-300">
+    <div className=" font-poppins border border-pure-greys-500 p-1 rounded  bg-custom-color2 text-white shadow-md hover:shadow-lg transition duration-300">
       <h3 className="text-lg font-semibold">👤 {post.author?.name || 'Unknown'}</h3>
       <p className="text-gray-300 mt-2">📝 {post.content}</p>
       <p className="text-xs text-gray-400 mt-2">⏰ {new Date(post.createdAt).toLocaleString()}</p>

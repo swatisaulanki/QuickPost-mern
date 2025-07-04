@@ -25,14 +25,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-richblack-900 text-white px-6 py-4 shadow-md">
+    <nav className="bg-richblack-900 text-white px-6 py-4 shadow-md font-poppins">
       {/* Top Row */}
       <div className="flex justify-between items-center">
         {/* Brand + Hi (Mobile Only) */}
         <div className="flex items-center gap-3">
           <Link
             to="/"
-            className="text-2xl font-bold bg-gradient-to-r from-pink-100 via-blue-200 to-pink-200 bg-clip-text text-transparent"
+            className="text-4xl font-bold bg-gradient-to-r from-pink-100 via-blue-200 to-pink-200 bg-clip-text text-transparent"
           >
             QuickPost
           </Link>

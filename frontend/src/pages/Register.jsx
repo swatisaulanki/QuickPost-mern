@@ -29,7 +29,7 @@ const Register = () => {
   };
 
   return (
-    <div className='bg-custom-color3 min-h-screen flex justify-center items-start pt-20'>
+    <div className='bg-custom-color2 min-h-screen flex justify-center items-start pt-20 font-poppins'>
       <form
         onSubmit={handleRegister}
         className="bg-richblack-700 shadow-md rounded px-8 pt-6 pb-8 w-full max-w-md"

@@ -19,7 +19,7 @@ const CreatePost = () => {
   };
 
   return (
-    <div className="bg-custom-color3 min-h-screen flex justify-center items-start pt-20">
+    <div className="bg-custom-color3 min-h-screen flex justify-center items-start pt-20 font-poppins">
       <form
         className="max-w-xl w-full   bg-richblack-700 text-white p-6 rounded shadow-lg"
         onSubmit={handlePost}
